@@ -1,7 +1,7 @@
 package com.dog.api;
 
 public class DogRating {
-	private final int rating;
+	private final Integer rating;
 	private final String imageUrl;
 	
 	public DogRating(int rating, String imageUrl) {
@@ -9,7 +9,7 @@ public class DogRating {
 		this.imageUrl = imageUrl;
 	}
 	
-	public int getRating() {
+	public Integer getRating() {
 		return rating;
 	}
 	
