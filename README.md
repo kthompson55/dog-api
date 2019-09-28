@@ -9,9 +9,9 @@ The following routes are accepted:
 `GET /api/dog-ratings` - Returns a list of all the valid submitted dog ratings
 `POST /api/dog-ratings` - Attempts to add a dog rating on the server
 When posting a dog rating, the following JSON model is required:
-```JSON
+```
 {
-  "rating": <number>, // 10 = x = 16
+  "rating": <number>, // 10 ≤ x ≤ 16
   "imageUrl": <string> // has to be properly formed URL
 }
 ```
